@@ -18,9 +18,9 @@ I also defined the proposed functions, agent tools, system architecture, evaluat
 
 ## Important Commits
 
-- Commit hash: Pending — to be added after the first commit.
-- Description: Add project proposal and Week 10 planning report.
-- Link: Pending — to be added after pushing to GitHub.
+- Commit hash: 6464544
+- Description: Complete Week 10 proposal and planning.
+- Link: https://github.com/aruzhanabuova-png/css4007-ai-agents-final/commit/6464544
 
 ## Current Functionality
 
