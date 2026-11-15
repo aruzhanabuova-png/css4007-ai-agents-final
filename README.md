@@ -1036,7 +1036,6 @@ The objective is to develop students who can design, implement, evaluate, and un
 ### Project Description
 
 AI Smart Personal Planner is an AI-powered application that helps users organize their daily activities, study schedules, and personal tasks.
-
 The application uses the OpenAI API to generate practical plans based on user requests.
 
 ### Technologies
