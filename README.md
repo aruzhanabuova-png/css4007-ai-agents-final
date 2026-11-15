@@ -1029,3 +1029,74 @@ A-level projects add two further expectations:
 The objective is not to reward the largest application or the most complicated framework.
 
 The objective is to develop students who can design, implement, evaluate, and understand useful AI systems.
+
+
+## Student Project: AI Smart Personal Planner
+
+### Project Description
+
+AI Smart Personal Planner is an AI-powered application that helps users organize their daily activities, study schedules, and personal tasks.
+
+The application uses the OpenAI API to generate practical plans based on user requests.
+
+### Technologies
+
+- Python 3.13
+- OpenAI API
+- GPT-4.1-mini
+- python-dotenv
+
+### Installation
+
+1. Clone the repository.
+2. Create a virtual environment:
+
+```bash
+python -m venv .venv
+```
+
+3. Activate the virtual environment on Windows PowerShell:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+4. Install dependencies:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+5. Create a `.env` file in the project root and add:
+
+```env
+OPENAI_API_KEY=your_api_key_here
+```
+
+6. Run the application:
+
+```bash
+python src/main.py
+```
+
+### Example Request
+
+Input:
+
+Create a study plan for my math exam in 5 days.
+
+Output:
+
+The AI generates a five-day study plan with daily topics, exercises, and revision activities.
+
+### Current Progress — Week 11
+
+- Development environment configured.
+- OpenAI API integrated.
+- First successful LLM request completed.
+- Basic command-line prototype implemented.
+- Dependencies documented.
+
+### Planned Improvements
+
+Future versions will include task prioritization, schedule generation, progress tracking, and agent tools.
