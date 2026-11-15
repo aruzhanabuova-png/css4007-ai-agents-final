@@ -14,8 +14,9 @@
 
 ## Important Commits
 
-The Week 11 implementation has not been committed yet.
-The commit hash and link will be added after uploading the code to GitHub.
+- Commit hash: e802718
+- Description: Implement Week 11 OpenAI integration and initial prototype.
+- Link: https://github.com/aruzhanabuova-png/css4007-ai-agents-final/commit/e802718
 
 ## Current Functionality
 
