@@ -8,6 +8,8 @@ First, I created a SQLite database to store users' tasks. Then, I wrote Python f
 
 I also added some basic input checks and started testing my code with pytest. By the end of the week, I had written 8 tests, and all of them passed.
 
+I also decided to switch from GPT-4.1-mini to GPT-6 Luna. I updated the model in my Python code and tested it with a study planning request. The new model worked successfully and generated a study schedule.
+
 ## Important Commits
 
 This week, I worked mainly on these files:

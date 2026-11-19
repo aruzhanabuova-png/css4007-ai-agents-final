@@ -19,7 +19,7 @@ print("Welcome to AI Smart Personal Planner!")
 user_request = input("What do you want to plan? ")
 
 response = client.responses.create(
-    model="gpt-4.1-mini",
+    model="gpt-6-luna",
     instructions="You are a helpful personal planning assistant. Create clear and practical plans.",
     input=user_request
 )

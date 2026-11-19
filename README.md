@@ -1042,7 +1042,7 @@ The application uses the OpenAI API to generate practical plans based on user re
 
 - Python 3.13
 - OpenAI API
-- GPT-4.1-mini
+- GPT-6 Luna (`gpt-6-luna`)
 - python-dotenv
 
 ### Installation
@@ -1088,14 +1088,20 @@ Output:
 
 The AI generates a five-day study plan with daily topics, exercises, and revision activities.
 
-### Current Progress — Week 11
+### Development Progress
 
-- Development environment configured.
-- OpenAI API integrated.
-- First successful LLM request completed.
-- Basic command-line prototype implemented.
-- Dependencies documented.
+**Week 11 — Initial LLM Integration**
+- Configured the Python environment.
+- Integrated the OpenAI API.
+- Created the first working AI planner prototype.
+
+**Week 12 — Core Functionality**
+- Implemented SQLite database for task storage.
+- Added task creation, retrieval, updating, completion, and deletion.
+- Added input validation.
+- Created and passed 8 automated tests.
+- Switched to GPT-6 Luna and tested the updated model.
 
 ### Planned Improvements
 
-Future versions will include task prioritization, schedule generation, progress tracking, and agent tools.
+Future versions will include AI tool calling, automatic task prioritization, personalized daily and weekly schedules, free time management, and improved progress tracking.
